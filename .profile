@@ -11,7 +11,7 @@ export COMPOSER_GLOBAL="/Users/elbertcastaneda/.composer/vendor/bin"
 export PATH="$COMPOSER_GLOBAL:$PATH"
 
 # Set HOME BREW GIT HUB ELBERT TOKEN
-export HOMEBREW_GITHUB_API_TOKEN="b6803118ad21acb848ac409a0bbb65d9f45ce179"
+export HOMEBREW_GITHUB_API_TOKEN="b22d87a58119fdd4145c079584c8e674e17a5f39"
 
 # Java Home
 
@@ -48,3 +48,6 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+#yarn definition
+export PATH="$PATH:`yarn global bin`"
